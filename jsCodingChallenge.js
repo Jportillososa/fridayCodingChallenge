@@ -30,7 +30,7 @@ function days() {
     let differenceInDays = differenceInTime / (1000 * 3600 * 24);
     return differenceInDays
 }
-console.log(`The total number of days between dates ${firstDate} and ${secondDate} is : ${days()}!!`)
+console.log(`The total number of days between dates ${firstDate} and ${secondDate} is : ${days()} days!!`)
 
 
 //BELOW IS SOLUTION WITHOUT FUNCTION
